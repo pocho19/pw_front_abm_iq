@@ -23,6 +23,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.System-general {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  padding: 20px;
+}
 
 .App-link {
   color: #61dafb;
@@ -30,9 +40,12 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(-1deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(1deg);
   }
 }
+
+
+
